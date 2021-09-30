@@ -1,0 +1,19 @@
+{
+  "name": "command-handler-template",
+  "version": "v6.6.0-beta",
+  "description": "template for command handling",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.20.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tester",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9"
+  }
+}
