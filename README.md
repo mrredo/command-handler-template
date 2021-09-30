@@ -2,6 +2,9 @@
  template for command handling using discord.js :)
  
  Use this template however u like :)
+ 
+ dont forget to put your info in `config.js` file
+ 
  ## example usage (messageCreate event only)
  ```
  module.exports = {
