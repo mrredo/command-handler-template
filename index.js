@@ -19,7 +19,11 @@ const client = new Client({
     Intents.FLAGS.GUILD_VOICE_STATES,
     Intents.FLAGS.GUILD_INVITES,
     Intents.FLAGS.GUILD_BANS,
-    //Intents.FLAGS.GUILD_PRESENCES,
+    Intents.FLAGS.GUILD_PRESENCES,
+    Intents.FLAGS.DIRECT_MESSAGES,
+    Intents.FLAGS.DIRECT_MESSAGE_REACTIONS,
+    Intents.FLAGS.DIRECT_MESSAGE_TYPING,
+    Intents.FLAGS.GUILD_MESSAGE_TYPING
   ],
 });
 
